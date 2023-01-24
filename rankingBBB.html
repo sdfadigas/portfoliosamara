@@ -1,0 +1,337 @@
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inimigos do Boninho</title>
+    <style>
+        body {
+            text-align: center;
+            display: grid;
+            align-content: space-between;
+            justify-items: center;
+            max-width: fit-content;
+            margin: 0 auto;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+        }
+
+        h1 {
+            padding: 15px 20px 0 20px;  
+            font-weight:bolder;     
+        }
+
+        table {
+            border-spacing: 0;
+            width: auto;
+            margin: 0 auto;
+            border: 1px solid #ddd;
+        }
+
+        td,
+        td {
+            text-align: left;
+            padding: 10px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2
+        }
+
+        img {
+            position: absolute;
+            margin: auto;
+            width: 100vw;
+            display: flex;
+            z-index: -1;
+            opacity: 25%;
+        }
+
+        button {
+            margin: 10px;
+            padding: 15px 30px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;
+            border-radius: 10px;
+            display: block;
+            border: 0px;
+            font-weight: 700;
+            box-shadow: 0px 0px 14px -7px #f09819;
+            background-image: linear-gradient(45deg, #6a05ad 0%, #da55da 51%, #FF512F 100%);
+            cursor: pointer;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+        }
+
+        button:hover {
+            background-position: right center;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        button:active {
+            transform: scale(0.95);
+        }
+    </style>
+</head>
+
+<body>
+    <img src="bbblogo.jpg">
+    <h1>Ranking Inimigos do Boninho - 4ª Temporada</h1>
+    <p><button onclick="sortTable()">Click aqui para atualizar o ranking</button></p>
+    <table id="myTable">
+        <tr>
+            <th>PONTUAÇÃO</th>
+            <th>NOME</th>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Arthur</td>
+
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Ayala</td>
+
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Bela</td>
+
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Bibi</td>
+
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Bolinha</td>
+
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Diego</td>
+
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Felipe</td>
+
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Geane</td>
+
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>GG</td>
+
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>GPP</td>
+
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Hannah</td>
+
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Isabel</td>
+
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Jadi</td>
+
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Jess</td>
+
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Ju Marques</td>
+
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Juliana BBB SP</td>
+
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Junior</td>
+
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Laise</td>
+
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Laíse M</td>
+
+        </tr>
+ <tr>
+            <td>0</td>
+            <td>Lari</td>
+
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Laura</td>
+
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Lidi</td>
+
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Loli</td>
+
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Lu Uchôa</td>
+
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Luana</td>
+
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>Lucas Picon</td>
+
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Luisa</td>
+
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Luiza</td>
+
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Lula</td>
+
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Marcos</td>
+
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Marcus Presida</td>
+
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Mari S</td>
+
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Matheus</td>
+
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Monique</td>
+
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Naiara</td>
+
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Nilo</td>
+
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Rodrigo</td>
+
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>Sabah</td>
+
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Samara</td>
+
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Taos</td>
+
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Taynara</td>
+
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>thiago M</td>
+
+        </tr>
+
+    </table>
+
+    <script>
+        function sortTable() {
+            var table, rows, switching, i, x, y, shouldSwitch;
+            table = document.getElementById("myTable");
+            switching = true;
+
+            while (switching) {
+                //start by saying: no switching is done:
+                switching = false;
+                rows = table.rows;
+
+                for (i = 1; i < (rows.length - 1); i++) {
+                    shouldSwitch = false;
+
+                    x = rows[i].getElementsByTagName("TD")[0];
+                    y = rows[i + 1].getElementsByTagName("TD")[0];
+                    if (Number(x.innerHTML) < Number(y.innerHTML)) {
+                        shouldSwitch = true;
+                        break;
+                    }
+                }
+                if (shouldSwitch) {
+
+                    rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+                    switching = true;
+                }
+            }
+        }
+    </script>
+
+</body>
+
+</html>
