@@ -190,9 +190,11 @@ a {
   margin: 0 auto;
 }
 
-.container {
+.container-pic {
   display: flex;
   flex-direction: column;
+  align-content: center;
+
 }
 .welcome-section > h1 {
   font-size: 3rem;
