@@ -166,6 +166,10 @@ a {
 
 /* Welcome section */
 
+.tools-icons {
+  font-size:xx-large;
+}
+
 .welcome-section {
   display: flex;
   flex-direction: column;
