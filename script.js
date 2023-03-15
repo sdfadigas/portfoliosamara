@@ -56,6 +56,7 @@ function myFunction() {
   var moreCards = document.getElementsByClassName("more");
   var btnCards = document.getElementsByClassName("showBtn");
   
+  
 
   for (var i = 0; i < breakPoint.length; i++) {  
     if (breakPoint[i].style.display === "none") {
