@@ -136,8 +136,9 @@ a {
   font-size:5rem;
   margin: 20px 20px 0 0;
 }
-
-#darkMode {
+#lightMode,
+#darkMode,
+#exportPDF {
   background-color: transparent;
   border: none;
   font-size: 16px;
@@ -146,23 +147,13 @@ a {
   transition: transform 0.3s ease-out;
 }
 
-#darkMode:hover {
+#lightMode:hover,
+#darkMode:hover,
+#exportPDF:hover {
   transform: translateY(4px);
 }
 
-#lightMode {
-  background-color: transparent;
-  border: none;
-  display:none;
-  font-size: 16px;
-  color:#222;
-  margin-left: 12px;
-  transition: transform 0.3s ease-out;
-}
 
-#lightMode:hover {
-  transform: translateY(4px);
-}
 
 /* Welcome section */
 
